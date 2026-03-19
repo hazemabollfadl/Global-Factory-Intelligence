@@ -1,0 +1,122 @@
+[
+    {
+        "ticket_id": "TKT-1000",
+        "language": "de",
+        "raw_log": "Gabelstapler-Batterieproblem im Depot-Lagerraum in Pfarrkirchen. Gemeldet von Dipl.-Ing. Nikolas Matthäi B.Eng.. Erreichbar unter +49 15 3090700, Email: muelichenhans-wolfgang@example.org.",
+        "masked_log": "Gabelstapler-Batterieproblem im Depot-Lagerraum in Pfarrkirchen. Gemeldet von [REDACTED_NAME]. Erreichbar unter [REDACTED_PHONE], Email: [REDACTED_EMAIL]"
+    },
+    {
+        "ticket_id": "TKT-1001",
+        "language": "en",
+        "raw_log": "Robotic arm calibration error on the digital production line. Assigned to Marie Neal. Contact: romualdkoehler@example.com or 241.967.6835.",
+        "masked_log": "Robotic arm calibration error on the digital production line. Assigned to [REDACTED_NAME]. Contact: [REDACTED_EMAIL] or [REDACTED_PHONE]."
+    },
+    {
+        "ticket_id": "TKT-1002",
+        "language": "ar",
+        "raw_log": "توقف مفاجئ في خط التجميع الآلي. تم إبلاغ William Olson. يرجى الاتصال على 530.514.7331x981 أو james86@example.net.",
+        "masked_log": "توقف مفاجئ في خط التجميع الآلي. تم إبلاغ [REDACTED_NAME]. يرجى الاتصال على [REDACTED_PHONE]x981 أو [REDACTED_EMAIL]"
+    },
+    {
+        "ticket_id": "TKT-1003",
+        "language": "de",
+        "raw_log": "Kühlmittelleck an CNC-Maschine 04. Techniker Kuno Schulz ist vor Ort. Tel: +49 17 2658123. Bericht an max12@example.org senden.",
+        "masked_log": "Kühlmittelleck an CNC-Maschine 04. Techniker [REDACTED_NAME] ist vor Ort. Tel: [REDACTED_PHONE]. Bericht an [REDACTED_EMAIL] senden."
+    },
+    {
+        "ticket_id": "TKT-1004",
+        "language": "en",
+        "raw_log": "Conveyor belt motor overheating in Sector 4. Maintenance requested by Raymond Hensley. Notify via taylorstephen@example.net or call (769)697-1230.",
+        "masked_log": "Conveyor belt motor overheating in Sector 4. Maintenance requested by [REDACTED_NAME]. Notify via [REDACTED_EMAIL] or call [REDACTED_PHONE]."
+    },
+    {
+        "ticket_id": "TKT-1005",
+        "language": "en",
+        "raw_log": "Robotic arm calibration error on the digital production line. Assigned to Amber Brown. Contact: kaylapeck@example.net or 001-730-979-8237x404.",
+        "masked_log": "Robotic arm calibration error on the digital production line. Assigned to [REDACTED_NAME]. Contact: [REDACTED_EMAIL] or [REDACTED_PHONE]x404."
+    },
+    {
+        "ticket_id": "TKT-1006",
+        "language": "ar",
+        "raw_log": "توقف مفاجئ في خط التجميع الآلي. تم إبلاغ Nicole Young. يرجى الاتصال على 570-676-7519x002 أو pmercer@example.org.",
+        "masked_log": "توقف مفاجئ في خط التجميع الآلي. تم إبلاغ [REDACTED_NAME]. يرجى الاتصال على [REDACTED_PHONE]x002 أو [REDACTED_EMAIL]"
+    },
+    {
+        "ticket_id": "TKT-1007",
+        "language": "en",
+        "raw_log": "Conveyor belt motor overheating in Sector 4. Maintenance requested by Cynthia Ortiz. Notify via pruittwhitney@example.com or call 635.755.6536.",
+        "masked_log": "Conveyor belt motor overheating in Sector 4. Maintenance requested by [REDACTED_NAME]. Notify via [REDACTED_EMAIL] or call [REDACTED_PHONE]."
+    },
+    {
+        "ticket_id": "TKT-1008",
+        "language": "de",
+        "raw_log": "Kühlmittelleck an CNC-Maschine 04. Techniker Marlen Junck ist vor Ort. Tel: +49 17 5179435. Bericht an annegill@example.net senden.",
+        "masked_log": "Kühlmittelleck an CNC-Maschine 04. Techniker [REDACTED_NAME] ist vor Ort. Tel: [REDACTED_PHONE]. Bericht an [REDACTED_EMAIL] senden."
+    },
+    {
+        "ticket_id": "TKT-1009",
+        "language": "ar",
+        "raw_log": "ارتفاع درجة حرارة المولد الاحتياطي. المهندس Jared Chen يتابع المشكلة. رقم الهاتف 649-262-2863، البريد lelaurie@example.org.",
+        "masked_log": "ارتفاع درجة حرارة المولد الاحتياطي. المهندس [REDACTED_NAME] يتابع المشكلة. رقم الهاتف [REDACTED_PHONE]، البريد [REDACTED_EMAIL]"
+    },
+    {
+        "ticket_id": "TKT-1010",
+        "language": "en",
+        "raw_log": "Firmware update failed on PLC unit A1. William Rodriguez is handling the rollback. Reach out at yvonne60@example.net (Phone: 6466182603).",
+        "masked_log": "Firmware update failed on PLC unit A1. [REDACTED_NAME] is handling the rollback. Reach out at [REDACTED_EMAIL] (Phone: [REDACTED_PHONE])."
+    },
+    {
+        "ticket_id": "TKT-1011",
+        "language": "de",
+        "raw_log": "Gabelstapler-Batterieproblem im Depot-Lagerraum in Pfarrkirchen. Gemeldet von Dipl.-Ing. Mechthilde Martin. Erreichbar unter +49 16 2595309, Email: casparbrita@example.net.",
+        "masked_log": "Gabelstapler-Batterieproblem im Depot-Lagerraum in Pfarrkirchen. Gemeldet von [REDACTED_NAME]. Erreichbar unter [REDACTED_PHONE], Email: [REDACTED_EMAIL]"
+    },
+    {
+        "ticket_id": "TKT-1012",
+        "language": "en",
+        "raw_log": "Firmware update failed on PLC unit A1. Patricia Moreno is handling the rollback. Reach out at leander08@example.org (Phone: 905.392.2730).",
+        "masked_log": "Firmware update failed on PLC unit A1. [REDACTED_NAME] is handling the rollback. Reach out at [REDACTED_EMAIL] (Phone: [REDACTED_PHONE])."
+    },
+    {
+        "ticket_id": "TKT-1013",
+        "language": "en",
+        "raw_log": "Robotic arm calibration error on the digital production line. Assigned to Edward Parks. Contact: ebenjamin@example.com or +1-871-986-4504.",
+        "masked_log": "Robotic arm calibration error on the digital production line. Assigned to [REDACTED_NAME]. Contact: [REDACTED_EMAIL] or [REDACTED_PHONE]."
+    },
+    {
+        "ticket_id": "TKT-1014",
+        "language": "de",
+        "raw_log": "Kühlmittelleck an CNC-Maschine 04. Techniker Frau Ingrid Oestrovsky ist vor Ort. Tel: +49 15 5307027. Bericht an wayne70@example.com senden.",
+        "masked_log": "Kühlmittelleck an CNC-Maschine 04. Techniker [REDACTED_NAME] ist vor Ort. Tel: [REDACTED_PHONE]. Bericht an [REDACTED_EMAIL] senden."
+    },
+    {
+        "ticket_id": "TKT-1015",
+        "language": "de",
+        "raw_log": "Gabelstapler-Batterieproblem im Depot-Lagerraum in Pfarrkirchen. Gemeldet von Kathy Dussen van. Erreichbar unter +49 16 1116037, Email: michaelthomas@example.org.",
+        "masked_log": "Gabelstapler-Batterieproblem im Depot-Lagerraum in Pfarrkirchen. Gemeldet von [REDACTED_NAME]. Erreichbar unter [REDACTED_PHONE], Email: [REDACTED_EMAIL]"
+    },
+    {
+        "ticket_id": "TKT-1016",
+        "language": "ar",
+        "raw_log": "عطل في المستشعر في منشأة تشام بالقرب من Ludwigstraße 6. الفني المسؤول: Carolyn Bennett. للتواصل: 001-369-383-1097x32269 أو عبر البريد kthompson@example.com.",
+        "masked_log": "عطل في المستشعر في منشأة تشام بالقرب من Ludwigstraße 6. الفني المسؤول: [REDACTED_NAME]. للتواصل: [REDACTED_PHONE]x32269 أو عبر البريد [REDACTED_EMAIL]"
+    },
+    {
+        "ticket_id": "TKT-1017",
+        "language": "en",
+        "raw_log": "Hydraulic pressure drop in the stamping press. James Williams investigating. Direct line: 736-711-9483x76418. Logs sent to pechelhans-joerg@example.com.",
+        "masked_log": "Hydraulic pressure drop in the stamping press. [REDACTED_NAME] investigating. Direct line: [REDACTED_PHONE]x76418. Logs sent to [REDACTED_EMAIL]"
+    },
+    {
+        "ticket_id": "TKT-1018",
+        "language": "ar",
+        "raw_log": "ارتفاع درجة حرارة المولد الاحتياطي. المهندس Allison Rhodes يتابع المشكلة. رقم الهاتف +1-721-356-2665x194، البريد zhertrampf@example.org.",
+        "masked_log": "ارتفاع درجة حرارة المولد الاحتياطي. المهندس [REDACTED_NAME] يتابع المشكلة. رقم الهاتف [REDACTED_PHONE]x194، البريد [REDACTED_EMAIL]"
+    },
+    {
+        "ticket_id": "TKT-1019",
+        "language": "ar",
+        "raw_log": "ارتفاع درجة حرارة المولد الاحتياطي. المهندس Steven Dixon يتابع المشكلة. رقم الهاتف 001-799-674-3033، البريد reginaldclark@example.net.",
+        "masked_log": "ارتفاع درجة حرارة المولد الاحتياطي. المهندس [REDACTED_NAME] يتابع المشكلة. رقم الهاتف [REDACTED_PHONE]، البريد [REDACTED_EMAIL]"
+    }
+]
