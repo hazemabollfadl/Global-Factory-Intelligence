@@ -13,7 +13,6 @@ from google.cloud.exceptions import NotFound
 
 logger = logging.getLogger(__name__)
 
-# Constants
 PROCESSED_FILE_PATH = Path("Data/Processed/gfi_structured_logs.json")
 DATASET_NAME = "gfi_maintenance"
 TABLE_NAME = "structured_logs"
@@ -56,7 +55,6 @@ def load_data_to_bigquery() -> None:
         bigquery.SchemaField("urgency_level", "STRING", mode="REQUIRED"),
     ]
 
-    # Configure the load job
     job_config = bigquery.LoadJobConfig(
         schema=schema,
         write_disposition=bigquery.WriteDisposition.WRITE_APPEND,
@@ -83,14 +81,12 @@ def load_data_to_bigquery() -> None:
     logger.info("Initiating BigQuery load job for %d records...", len(records))
 
     try:
-        # load_table_from_json natively accepts a list of Python dictionaries
         load_job = client.load_table_from_json(
             records,
             table_id,
             job_config=job_config
         )
 
-        # Wait for the job to complete
         load_job.result()
 
         # 6. Verification

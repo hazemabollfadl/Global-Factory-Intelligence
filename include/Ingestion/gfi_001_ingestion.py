@@ -6,7 +6,6 @@ from faker import Faker
 import random
 from pathlib import Path
 
-# Configure standard logging
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 
 
@@ -14,10 +13,7 @@ class LogGenerator:
     """Handles the generation of multi-lingual synthetic factory maintenance logs."""
 
     def __init__(self):
-        # Initialize Faker with English, German, and Arabic locales
         self.fake = Faker(['en_US', 'de_DE', 'ar_EG'])
-
-        # Scenarios mapped to specific operational contexts and languages
         self.templates = [
             {"lang": "en", "text": "Robotic arm calibration error on the digital production line. Assigned to {name}. Contact: {email} or {phone}."},
             {"lang": "de", "text": "Gabelstapler-Batterieproblem im Depot-Lagerraum in Pfarrkirchen. Gemeldet von {name}. Erreichbar unter {phone}, Email: {email}."},
@@ -84,7 +80,6 @@ class PIIMasker:
         masked_text = re.sub(phone_pattern, '[REDACTED_PHONE]', masked_text)
 
         # 3. Mask Name
-        # In a fully deployed pipeline, you would swap this logic out for Microsoft Presidio.
         if known_name:
             masked_text = masked_text.replace(known_name, '[REDACTED_NAME]')
 

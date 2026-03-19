@@ -27,7 +27,7 @@ logger = logging.getLogger(__name__)
 MODEL_NAME = "gemini-2.5-flash"
 RAW_FILE_PATH = Path("Data/Raw/gfi_maintenance_logs.json")
 PROCESSED_FILE_PATH = Path("Data/Processed/gfi_structured_logs.json")
-BATCH_SIZE = 5  # 20 logs / 5 = 4 requests (Under the 5 RPM Free Tier Limit)
+BATCH_SIZE = 5
 
 SYSTEM_PROMPT = """
 You are an expert industrial AI extraction system.
@@ -95,7 +95,6 @@ async def process_batch_async(client: genai.Client, batch: list[dict[str, Any]],
     logger.info(
         "Firing API request for Batch %d (Contains %d logs)...", batch_id, len(batch))
 
-    # Pass the entire batch as a JSON string in the prompt
     prompt = f"Process the following array of logs:\n{json.dumps(batch, ensure_ascii=False)}"
 
     response = await client.aio.models.generate_content(
@@ -153,7 +152,6 @@ async def run_pipeline():
         if result:
             batch_results.append(result)
 
-        # Add a 2-second stagger between requests (except after the last one)
         if i < len(batches) - 1:
             await asyncio.sleep(2)
 

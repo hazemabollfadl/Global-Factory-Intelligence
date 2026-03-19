@@ -1,7 +1,14 @@
-# Astro Runtime includes the following pre-installed providers packages: https://www.astronomer.io/docs/astro/runtime-image-architecture#provider-packages
+# --- Pipeline Core ---
 faker
 google-genai
-google-cloud-bigquery
 pydantic
 tenacity
 python-dotenv
+
+# --- Cloud & Data Warehousing ---
+google-cloud-bigquery
+db-dtypes
+pandas
+
+# --- Presentation Layer ---
+streamlit
