@@ -4,6 +4,7 @@ import logging
 from typing import List, Dict, Optional
 from faker import Faker
 import random
+from pathlib import Path
 
 # Configure standard logging
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
@@ -118,8 +119,10 @@ def main():
             "masked_log": masked_text
         })
 
-    # Save to JSON file as per requirements
-    output_filename = "Raw/gfi_maintenance_logs.json"
+    output_dir = Path("Data/Raw")
+    output_dir.mkdir(parents=True, exist_ok=True)
+    output_filename = output_dir / "gfi_maintenance_logs.json"
+
     with open(output_filename, "w", encoding="utf-8") as f:
         json.dump(final_output, f, ensure_ascii=False, indent=4)
 

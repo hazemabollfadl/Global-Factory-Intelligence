@@ -1,8 +1,15 @@
+# Environments & Credentials
 .venv/
+.env
+**/big_query_api_key.json
+/Data
+
+# Python & System Clutter
 __pycache__/
 .DS_Store
 .ipynb_checkpoints/
-.env
-big_query_api_key.json
 *.pyc
 *.pyo
+
+# Astro CLI Metadata
+.astro/
